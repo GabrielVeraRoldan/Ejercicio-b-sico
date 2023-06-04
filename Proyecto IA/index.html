@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="Style.css\style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="logica.js"></script>
+    <title>Animales Fantásticos</title>
+    <link rel="shortcut icon" href="Buho.ico" type="image/x-icon">
+</head>
+<!--Estructura para ingresar comentarios que no quedan en mi página-->
+
+<body>
+    <section class="Container">
+        <section class="title">
+            <span class="primary">
+                <h1>
+                    Animales Fantásticos
+                </h1>
+            </span>
+            <span class="secundary">
+                Estos son los animales fantásticos del mundo mundial
+            </span>
+        </section>
+        <section id="Seleccionar_animal">
+            <input type="radio" name="animales" id="Buhokiro"/>
+            <label for="Buhokiro">Buhokiro</label>
+            <section id="Seleccionar_animal">
+                <input type="radio" name="animales" id="Gatalástico"/>
+                <label for="Gatalástico">Gatalástico</label>
+                <section id="Seleccionar_animal">
+                    <input type="radio" name="animales" id="Blizzard"/>
+                    <label for="Blizzard">Blizzard</label>
+            <section id="Seleccionar_animal">
+                <input type="radio" name="animales" id="Perratón"/>
+                <label for="Perratón">Perratón</label>
+            <section id="Seleccionar_animal">
+                <input type="radio" name="animales" id="Elefantastico"/>
+                <label for="Elefantastico">Elefantastico</label>
+                <section id="seleccionar_poder">
+                    <h2>Elige sus poderes</h2>
+                    <p>Tu animal fantástico <span id="animalJugador"></span>tiene 3 almas</p>
+                    <p>El animal fantástico del contrincante es <span id="animalRival"></span>tiene 3 almas</p>
+
+                    <section>
+                        <button id="boton_tierra">🌎 Land</button>
+                        <button id="boton_agua">🌊 Water</button>
+                        <button id="boton_fuego">🔥 Fire</button>
+                    </section>
+                </section>
+                <section id="mensajes">
+                    <p>Tu animal fantástico atacó con FUEGO, el animal del contrincante atacó con TIERRA, has GANADO...😎</p>
+                </section>
+                <section id="nuevo_inicio">
+                    <button id="boton_recargar">Recargar Almas</button>
+                </section>
+        <!--Creación tarjetas de cada uno de los animales-->
+        <section class="gallery-wrapper">
+            <figure class="gallery-item">
+                <img src="IMG\Buhoquiro.jpeg" alt="Esto es un buho" class="item-image" />
+                <figcaption class="item-description">
+                    <h2 class="name">Buhokiro</h2>
+                    <span class="role">Es considerado un guardián del conocimiento y se le busca para obtener
+                        información valiosa</span>
+                </figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="IMG\Gatalástico.png" alt="Esto es un gato" class="item-image" />
+                <figcaption class="item-description">
+                    <h2 class="name">Gatalástico</h2>
+                    <span class="role">Conocido por su agilidad y destreza, disfrutando de explorar nuevos territorios</span>
+                </figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="IMG\Blizzard.jpeg" alt="Esto es un lobo" class="item-image" />
+                <figcaption class="item-description">
+                    <h2 class="name">Blizzard</h2>
+                    <span class="role">Posee poderes sobrenaturales relacionados con la nieve y el hielo</span>
+                </figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="IMG\Perratón.jpeg" alt="Esto es un perro" class="item-image" />
+                <figcaption class="item-description">
+                    <h2 class="name">Perratón</h2>
+                    <span class="role">Detector de peligros y socorrista en situaciones de emergencia</span>
+                </figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="IMG\Elefantástico.jpg" alt="Esto es un elefante" class="item-image" />
+                <figcaption class="item-description">
+                    <h2 class="name">Elefantastico</h2>
+                    <span class="role">Gigante, con un excelente dominio del agua</span>
+                </figcaption>
+            </figure>
+                </section>
+</body>
+
+</html>
